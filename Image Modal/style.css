@@ -1,0 +1,43 @@
+
+body{
+    background-image: linear-gradient(rgb(11, 11, 27),rgb(153, 106, 18));
+    height: 100vh;
+
+}
+.container{
+    position: fixed ;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding-top: 50px;
+
+}
+
+#img{
+    margin: auto;
+    width: 70%;
+    display: block;
+    max: width 650px; ;
+}
+#description{
+    font-size: 40px;
+    color: aqua;
+    position: absolute ;
+    top: 5%;
+    right: 5%;
+
+}
+
+#myImg{
+width: 100px;
+cursor: pointer;
+
+}
+#close{
+    position: absolute ;
+    top: 25px;
+    left: 40px;
+    color: aliceblue;
+    font-size: 50px;
+    
+}
